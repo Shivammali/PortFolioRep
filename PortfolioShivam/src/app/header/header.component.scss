@@ -1,0 +1,30 @@
+@media (min-width: 1140px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1260px;
+    }
+    }
+     // Large devices (desktops, 992px and up)
+     @media (min-width: 960px) { 
+        .container-lg{
+            max-width: 1260px;
+        }
+     }
+     // Medium devices (tablets, 768px and up)
+    @media (min-width: 720px) {.container-md{
+        max-width: 1260px; }
+    }
+    //small devices
+    @media (min-width: 540px) { .container-sm{
+        max-width: 1260px;
+    } }
+.logo{
+    height: 78px;
+    width: 131px;
+    }
+.container{
+    padding-right: 10px;
+}
+.btn-radius{
+    border-radius: 30px;
+    width: 100px
+}
