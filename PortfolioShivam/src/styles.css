@@ -1,7 +1,19 @@
 .vertical-centre{
-    height: 75vh;
+    height: 68vh !important;
  }
-
+ .font-size-40{
+  font-size: 40px;
+}
+ .font-size-35{
+   font-size: 35px;
+ }
+ 
+ .font-size-20{
+   font-size: 20px;
+ }
+ .display-grid{
+   display: grid;
+}
 
 
 
@@ -56,3 +68,8 @@
     color:#2128C6;
     text-decoration: none;
     }
+
+    .color-2177C6{
+      color:#2177C6;
+      text-decoration: none;
+      }

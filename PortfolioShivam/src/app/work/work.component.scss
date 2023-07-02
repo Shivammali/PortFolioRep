@@ -1,0 +1,54 @@
+@keyframes lineExpansion-1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%; /* Adjust the desired width for line 1 */
+    }
+  }
+
+  @keyframes lineExpansion-2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 53%; /* Adjust the desired width for line 2 */
+    }
+  }
+
+  @keyframes lineExpansion-3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%; /* Adjust the desired width for line 3 */
+    }
+  }
+
+  /* Define the styles for the lines */
+  .line {
+    height: 3px;
+    background-color: #2177C6;
+    overflow: hidden; /* Ensure the lines don't wrap within their container */
+  }
+
+  /* Apply the animation to the lines */
+  .figma-skill {
+    animation: lineExpansion-1 3s forwards ;
+    
+  }
+
+  .react-skill{
+    animation: lineExpansion-2 3s forwards ;
+  }
+
+  .wordpress-skill{
+    animation: lineExpansion-3 3s forwards ;
+  }
+
+  .circle{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #412a2a; /* Adjust the desired background color */
+    padding: 8px;
+  }
